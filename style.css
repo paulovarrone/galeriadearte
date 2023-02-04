@@ -97,7 +97,8 @@ img:hover {
     flex-direction: column;
     gap: 23px;
     
-    
+    animation-name: downtop;
+    animation-duration: 700ms;
     
     
 }
