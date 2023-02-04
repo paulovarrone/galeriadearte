@@ -155,6 +155,7 @@ img:hover {
     main {
         grid-template-areas: "a b b" 
                              "c c d";
+        
     }
 
     main div:nth-child(1) {
