@@ -142,11 +142,15 @@ img:hover {
     }
 }
 
-@media (min-width: 700px) {
+
+
+@media (min-width: 750px) {
+    
     .page {
         max-width: 1170px;
         padding: 0 50px;
     }
+    
 
     main {
         grid-template-areas: "a b b" 
@@ -167,6 +171,7 @@ img:hover {
 
     main div:nth-child(4) {
         grid-area: c;
+        
     }
 
     header h1 {
