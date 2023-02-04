@@ -151,7 +151,6 @@ img:hover {
         padding: 0 50px;
     }
     
-
     main {
         grid-template-areas: "a b b" 
                              "c c d";
@@ -178,4 +177,16 @@ img:hover {
     header h1 {
         font-size: 56px;
     }
+}
+
+@media (max-width: 992px) {
+
+    .card h2 {
+        font-size: 23px;
+    }
+
+    .card span {
+        font-size: 16px;
+    }
+
 }
