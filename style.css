@@ -148,6 +148,27 @@ img:hover {
         padding: 0 50px;
     }
 
+    main {
+        grid-template-areas: "a b b" 
+                             "c c d";
+    }
+
+    main div:nth-child(1) {
+        grid-area: a;
+    }
+
+    main div:nth-child(2) {
+        grid-area: b;
+    }
+
+    main div:nth-child(3) {
+        grid-area: d;
+    }
+
+    main div:nth-child(4) {
+        grid-area: c;
+    }
+
     header h1 {
         font-size: 56px;
     }
