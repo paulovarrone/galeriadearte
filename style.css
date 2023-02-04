@@ -17,6 +17,10 @@ body {
 main {
     display: grid;
     gap: 32px;
+    
+    animation-name: downtop;
+    animation-duration: 700ms;
+    
 }
 
 .page {
@@ -29,6 +33,10 @@ header {
     
     text-align: center;
     margin: 100px 0 80px;
+    
+    animation-name: topdown;
+    animation-duration: 700ms;
+    
 }
 
 header p {
@@ -70,8 +78,10 @@ img:hover {
     height: 416px;
     object-fit: cover;
     border-radius: 10px;
-    transition-property: transform all;
-    transition-duration: 200ms;
+    
+    
+
+   
     
 }
 
@@ -86,7 +96,10 @@ img:hover {
     display: flex;
     flex-direction: column;
     gap: 23px;
-
+    
+    
+    
+    
 }
 
 .card h2 span {
@@ -100,4 +113,41 @@ img:hover {
     display: inline-flex;
     align-items: center;
     width: fit-content;
+}
+
+
+@keyframes topdown {
+    
+    0% {
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes downtop { 
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 700px) {
+    .page {
+        max-width: 1170px;
+    }
+
+    header h1 {
+        font-size: 56px;
+    }
 }
