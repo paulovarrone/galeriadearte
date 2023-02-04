@@ -145,6 +145,7 @@ img:hover {
 @media (min-width: 700px) {
     .page {
         max-width: 1170px;
+        padding: 0 50px;
     }
 
     header h1 {
