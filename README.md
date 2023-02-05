@@ -1,4 +1,4 @@
-# Galeria de arte - <a href="https://paulovarrone.github.io/galeriadearte/" target="_blank">Acesse aqui</a>
+# Galeria de arte - <a href="https://paulovarrone.github.io/galeriadearte/" target="_blank">Acesse aqui.</a>
 
 ![image](https://user-images.githubusercontent.com/100317569/216781510-ce9ac048-340d-4ac6-900e-c249a0ea8bbd.png)
 
